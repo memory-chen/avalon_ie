@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>单页Demo</title>
+  <meta charset="UTF-8">
+  <link type="image/x-icon" href="logo.ico" rel="shortcut icon"/>
+  <link href="logo.ico" rel="bookmark icon"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body ms-controller="test">
+<div id="content">
+  <img src="../source/img/avatar.jpg" alt="" srcset="">
+  <div>
+    图标字体：
+    <i class="icon icon-sliderR"></i>
+  </div>
+  <!-- Standard button -->
+<button type="button" class="btn btn-default">（默认样式）Default</button>
+
+<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+<button type="button" class="btn btn-primary">（首选项）Primary订单订单</button>
+
+<!-- Indicates a successful or positive action -->
+<button type="button" class="btn btn-success">（成功）Success</button>
+
+  <input ms-duplex="@name">
+  <p>Hello,{{@name}}!</p>
+  <ul>
+    <li ms-for="($index,el) in @array">{{$index}}--{{el}}</li>
+  </ul>
+  <hr/>
+  <wbr is="ms-button" ms-widget="@config">
+</div>
+</body>
+</html>
