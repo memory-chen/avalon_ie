@@ -1,12 +1,7 @@
 {
-  "name": "ie-webpack-start",
+  "name": "ie-webpack-avalon",
   "version": "2.0.0",
-  "description": "",
-  "author": {
-    "name": "Sayll",
-    "email": "kilol@qq.com",
-    "url": "https://github.com/sayll"
-  },
+  "description": "ie8-avalon",
   "license": "ISC",
   "scripts": {
     "start": "better-npm-run dev",
