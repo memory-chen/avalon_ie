@@ -1,10 +1,11 @@
 
-let img = require('../../source/img/avatar.jpg');
-console.log(img);
+// let img = require('../../source/img/avatar.jpg');
+// console.log(img);
 // avalon.config({
 //   debug: false
 // })
-require('../../component/button/index');
+// require('../../component/button/index');
+require('../../component/nav/index');
 let vm = avalon.define({
   $id: "test",
   name: "司徒正美24556678大概是",
